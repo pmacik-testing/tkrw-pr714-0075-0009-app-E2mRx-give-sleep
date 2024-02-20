@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-rfaf
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/pmacik-testing/tkrw-pr714-0075-0009-tenant/tkrw-pr714-0075-0009-app/devfile-sample-rfaf@sha256:0c09e047ca8a02c574eb88712d6af0ef5e2c5d133011c18982c47de28ffc4699
+        name: my-nodejs
+        resources: {}
+status: {}
