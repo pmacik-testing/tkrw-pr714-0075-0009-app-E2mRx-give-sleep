@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-rfaf
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr714-0075-0009-tenant/tkrw-pr714-0075-0009-app/devfile-sample-rfaf@sha256:0c09e047ca8a02c574eb88712d6af0ef5e2c5d133011c18982c47de28ffc4699
         name: my-nodejs
         ports:
         - containerPort: 3001
